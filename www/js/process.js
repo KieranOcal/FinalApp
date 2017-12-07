@@ -26,7 +26,7 @@ let process = {
         <li><a href='#' onClick={process.SpiderMan}>
           <div className="item-content">
             <div className="item-inner">
-              <div className="item-title">SpiderMan</div>
+              <div className="item-title">Spider Man</div>
                   <div className="item-after">Details</div>
             </div>
           </div></a>
@@ -44,7 +44,7 @@ let process = {
         <li><a href='#' onClick={process.IronMan}>
           <div className="item-content">
             <div className="item-inner">
-              <div className="item-title">IronMan</div>
+              <div className="item-title">Iron Man</div>
                   <div className="item-after">Details</div>
             </div>
           </div></a>
@@ -52,7 +52,7 @@ let process = {
         <li><a href='#' onClick={process.BlackWidow}>
           <div className="item-content">
             <div className="item-inner">
-              <div className="item-title">BlackWidow</div>
+              <div className="item-title">Black Widow</div>
                   <div className="item-after">Details</div>
             </div>
           </div></a>
@@ -60,7 +60,7 @@ let process = {
         <li><a href='#' onClick={process.CaptainAmerica}>
           <div className="item-content">
             <div className="item-inner">
-              <div className="item-title">CaptainAmerica</div>
+              <div className="item-title">Captain America</div>
                   <div className="item-after">Details</div>
             </div>
           </div></a>
@@ -68,7 +68,25 @@ let process = {
         <li><a href='#' onClick={process.WonderWoman}>
           <div className="item-content">
             <div className="item-inner">
-              <div className="item-title">WonderWoman</div>
+              <div className="item-title">Wonder Woman</div>
+                  <div className="item-after">Details</div>
+            </div>
+          </div></a>
+        </li>
+    <li className="list-group-title"></li>
+        <li><a href='#' onClick={process.Thor}>
+          <div className="item-content">
+            <div className="item-inner">
+              <div className="item-title">Thor</div>
+                  <div className="item-after">Details</div>
+            </div>
+          </div></a>
+        </li>
+    <li className="list-group-title"></li>
+        <li><a href='#' onClick={process.Hulk}>
+          <div className="item-content">
+            <div className="item-inner">
+              <div className="item-title">The Incredible Hulk</div>
                   <div className="item-after">Details</div>
             </div>
           </div></a>
@@ -134,7 +152,7 @@ let process = {
     <div className="list-group">
      <div className="navbar">
               <div className="navbar-inner">
-                <div className="center">SpiderMan</div>
+                <div className="center">Spider Man</div>
               </div>
             </div>
             <center><img src={"img/spiderman.jpg"} width={"100%"}/>
@@ -178,7 +196,7 @@ let process = {
     <div className="list-group">
      <div className="navbar">
               <div className="navbar-inner">
-                <div className="center">IronMan</div>
+                <div className="center">Iron Man</div>
               </div>
             </div>
             <center><img src={"img/ironman.jpg"} width={"100%"}/>
@@ -200,7 +218,7 @@ let process = {
     <div className="list-group">
      <div className="navbar">
               <div className="navbar-inner">
-                <div className="center">BlackWidow</div>
+                <div className="center">Black Widow</div>
               </div>
             </div>
             <center><img src={"img/black.jpg"} width={"100%"}/>
@@ -222,7 +240,7 @@ let process = {
     <div className="list-group">
      <div className="navbar">
               <div className="navbar-inner">
-                <div className="center">CaptainAmerica</div>
+                <div className="center">Captain America</div>
               </div>
             </div>
             <center><img src={"img/cap.jpg"} width={"100%"}/>
@@ -243,11 +261,55 @@ let process = {
     <div className="list-group">
      <div className="navbar">
               <div className="navbar-inner">
-                <div className="center">WonderWoman</div>
+                <div className="center">Wonder Woman</div>
               </div>
             </div>
             <center><img src={"img/wonder.jpg"} width={"100%"}/>
             <p>As someone who values honesty, the Lasso of Truth is one of Wonder Woman’s most valuable assets. Like the name suggests, it forces people to tell the absolute truth. An effective team is completely honest with each other, so this is a key factor in Wonder Woman’s ability to lead. A leader who values honesty can accomplish great things.</p></center>
+            <br/><a href='#' onClick={process.menu}>back</a>
+</div>
+</div>
+</div>
+</div>
+</div>;
+      ReactDOM.render(content,document.getElementById('root'));
+  },
+    Thor:function(){
+     let content = <div className="page">
+    <div className="page-content infinite-scroll infinite-scroll-top">
+<div className="page-content contacts-content">
+  <div className="list-block contacts-block">
+    <div className="list-group">
+     <div className="navbar">
+              <div className="navbar-inner">
+                <div className="center">Thor</div>
+              </div>
+            </div>
+            <center><img src={"img/thor.jpg"} width={"100%"}/>
+            <p>Thor is a leader by birthright. When his father passes on the throne, Thor is to become the ruler of Asgard, but it takes him some time to realize what this truly means. Before he earns the respect of his people, he is exiled to Earth for his arrogance. There he learns that power doesn’t mean things will be handed to you. Respect is earned when it is given. It goes both ways. As a leader, it is important to respect your team and they will respect you in return.
+              </p></center>
+            <br/><a href='#' onClick={process.menu}>back</a>
+</div>
+</div>
+</div>
+</div>
+</div>;
+      ReactDOM.render(content,document.getElementById('root'));
+  },
+    Hulk:function(){
+     let content = <div className="page">
+    <div className="page-content infinite-scroll infinite-scroll-top">
+<div className="page-content contacts-content">
+  <div className="list-block contacts-block">
+    <div className="list-group">
+     <div className="navbar">
+              <div className="navbar-inner">
+                <div className="center">The Incredible Hulk</div>
+              </div>
+            </div>
+            <center><img src={"img/hulk_with_background_340838ad.png"} width={"100%"}/>
+            <p>As Tony Stark so elegantly puts it, the Hulk is a “giant green rage monster.” Though this doesn’t seem like a very effective super power, Hulk works with what he’s got. One of the most important leadership skills you can have is to do just that. Determine your strengths and use them to your advantage throughout your career.
+              </p></center>
             <br/><a href='#' onClick={process.menu}>back</a>
 </div>
 </div>
